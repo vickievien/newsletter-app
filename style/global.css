@@ -1,0 +1,41 @@
+:root {
+    --pale-navy: #36384D;
+    --dark-navy: #242742;
+    --vermellion: #FF6155;
+    --gray-25: rgba(25, 24, 43, 0.25);
+    --gradient-1: #FF6A3A;
+    --gradient-2: #FF527B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .heading {
+        font-size: 56px;
+    }    
+}
